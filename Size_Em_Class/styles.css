@@ -1,0 +1,9 @@
+/* Em contains the value of the direct parent,  */
+main {
+  font-size: 10px;
+}
+
+/* In this case 1.5 Em is going to be 15px */
+.text-container {
+  font-size: 1.5em;
+}

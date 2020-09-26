@@ -1,0 +1,16 @@
+main {
+  background-color: royalblue;
+  width: 100%;
+  height: 500px;
+}
+
+/* This size will not change, 
+depending of the size of the screen */
+p {
+  font-size: 18px;
+}
+/* Usin percentage in this example will
+inherit the size of the HMTL default style. */
+p {
+  font-size: 100%;
+}

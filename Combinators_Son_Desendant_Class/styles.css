@@ -1,0 +1,17 @@
+/* This means when we have a element
+ that is less than the other tag means
+  that, that tag is child from the bigger
+   tag, that means the parent tag. */
+
+div > p {
+  color: red;
+}
+
+/* Minor child. */
+div p {
+  color: red;
+}
+/* This means every
+ p tag that is inside 
+ of an div container,
+  please paint red. */

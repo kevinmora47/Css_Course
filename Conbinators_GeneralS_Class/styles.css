@@ -1,0 +1,7 @@
+h2 ~ p {
+  color: red;
+}
+/* This will work as every p tag
+that has a h tag near by, it's
+going to be affercted by the general 
+rule of general sibling. */
