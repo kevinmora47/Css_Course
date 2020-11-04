@@ -1,0 +1,14 @@
+/* Tag Called */
+h1 {
+  color: green;
+}
+
+/* Class Called */
+.paragraph {
+  font-size: 50px;
+}
+
+/* ID Called */
+#paragraph-id {
+  color: brown;
+}
