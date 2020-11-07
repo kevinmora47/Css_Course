@@ -12,3 +12,11 @@ h1 {
 #paragraph-id {
   color: brown;
 }
+
+/* Attribute called. */
+img[src] {
+}
+
+p:hover {
+  color: red;
+}
