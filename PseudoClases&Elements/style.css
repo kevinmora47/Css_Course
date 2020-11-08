@@ -1,0 +1,27 @@
+.nav {
+  margin-top: 10px;
+  /* Quit bullet style */
+  list-style: none;
+  padding-left: 0;
+  background: #13a4a4;
+}
+
+.nav__item {
+  display: inline-block;
+}
+.nav__item-link {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+
+/* Pseudo Classes. */
+.nav__item-link:hover {
+  color: #13a4a4;
+}
+.nav .nav__item:first-child {
+  background-color: black;
+}
+.nav .nav__item:last-child {
+  background-color: black;
+}
