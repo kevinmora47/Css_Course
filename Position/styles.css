@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.padre {
+  width: 70%;
+  height: 300px;
+  margin: 0 auto;
+  border: 2px black dashed;
+  /* text-align: center; */
+  margin-top: 50px;
+}
+.box {
+  display: inline-block;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin-top: 80px;
+}
+.box-yellow {
+  background-color: yellow;
+  position: absolute;
+  top: -2px;
+  left: 2px;
+}
