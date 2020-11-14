@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+main {
+  width: 100vw;
+  min-width: 320;
+  height: 100vh;
+  background-color: purple;
+}
+
+section {
+  width: 80%; /* width base */
+  min-width: 320px; /* límites */
+  max-width: 500px; /* límites */
+  min-height: 500px; /* para evitar el overflow */
+  margin: 0 auto; /* truco para centrar sin flexbox */
+  background-color: red;
+}
